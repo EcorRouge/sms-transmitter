@@ -1,0 +1,15 @@
+{
+    "configurations": [
+        {
+            "provider": "twilio",
+            "senderPhoneNumber": "+12513200976",
+            "messagingServiceSid": ""
+        }
+    ],
+    "events": {
+        "TEST_SMS_EVENT": {
+            "type": "SMS",
+            "template": "Hi {{ name }}, Your test SMS code is {{ code }}."
+        }
+    }
+}
